@@ -1,0 +1,131 @@
+<style>
+    .topnav{
+        overflow:hidden;
+        width: 100%;
+    }
+
+    .topnav a{
+        float: right;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 12px;
+    }
+
+    .fa {
+        padding: 25px;
+        width:20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        float: center;
+    }
+
+    .fa-google{
+        background-color: red;
+        color: white;
+    }
+
+    .glogo img{
+        margin:auto;
+        display:block;
+        margin-top: 100px;
+    }
+    
+    #search{
+        margin: auto;
+        display: block;
+        border-radius: 20px;  
+        width: 600px;
+        height: 30px;
+        
+    }
+
+    #search:hover{
+        border:1px grey solid;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .btn{
+        height:4%;
+        width:8%;
+        background-color: whitesmoke;
+        color: grey;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        width: auto;
+        display:inline-block;
+        margin: auto;
+    }
+
+    .btn:hover{
+        background-color: white;
+        cursor: grab;
+        color: black;
+        border:1px lightslategray solid;
+    }
+
+    .txt{
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .glogo{
+        width: 100%;
+        margin:auto;
+        display: block;
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Google</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="#" class="fa fa-google"></a>
+            <a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a>
+            <a href="https://www.google.com/search?client=ubuntu&channel=fs&q=gmail&ie=utf-8&oe=utf-8">Gmail</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="glogo">
+            <img src="368px-Google_2015_logo.svg.png">
+        </div>
+    </section>
+    <br><br>
+    <form id="search">
+        <label for="search"></label> 
+        <input type = "text" id = "search" name = "search">
+    </form>
+    <br><br>
+    <section class="buttons">
+        <button class="btn">Google Search</button>
+        <a href="https://www.google.com/doodles/"><button class="btn">I'm Feeling Lucky!</button></a>
+    <br><br>
+    <section>
+        <div class="list">
+            Google offered in:
+            <a href="#">தமிழ்</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ಕನ್ನಡ</a>
+            <a href="#">മലയാളം</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+            <a href="#">বাংলা</a>
+            <a href="#">मराठी</a>
+            <a href="#">हिन्दी</a>
+        </div>
+    </section>
+    
+</body>
+</html>
